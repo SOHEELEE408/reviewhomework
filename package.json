@@ -2,9 +2,9 @@
   "name": "reviewhomework",
   "version": "1.0.0",
   "description": "Wetube Challenge day5 homework tries one more time",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "success, please..."
+    "start": "babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,9 @@
   "author": "sohee",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
     "express": "^4.17.1"
   }
 }
